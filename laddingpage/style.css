@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 * {
     margin: 0px;
     padding: 0px;
@@ -9,17 +11,112 @@ html {
 }
 
 main {
-    margin: 25% auto;
+    margin: 10% auto;
     height: 80%;
     width: 90%;
 }
 
 section#firstblock {
-    padding: 20px;
+    padding: 12.3px;
     background-color: white;
+    border-radius: 10px 10px 0px 0px;
 }
 
 section#firstblock > h1 {
     margin: 20px;
+    margin-left: 12px;
     color: rgba(0, 128, 117, 0.767);
 }
+
+p { 
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+p#texto1bloco1 {
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgb(183, 209, 124);
+}
+
+p#texto2bloco1 {
+    font-size: 15px;
+    line-height: 30px;
+    color: lightgray;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+section#secondblock {
+    padding: 20px;
+    background-color: rgb(14, 161, 167);
+}
+
+section#secondblock > h2 {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+section#secondblock > p {
+    color: white;
+}
+
+section#secondblock > p#pPrice {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 4px;
+}
+
+section#secondblock > p#pPrice2 {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.678);
+    margin: 10px;
+}
+
+section#secondblock > button {
+    background-color: rgb(183, 209, 124);
+    color: rgba(255, 255, 255, 0.568);
+
+    height: 50px;
+    width: 300px;
+
+    font-size: 18px;
+    font-weight: 400;
+
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.39);    
+}
+
+section#thirdblock {
+    background-color: rgba(15, 186, 192, 0.747);
+    color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+section#thirdblock > h2 {
+    font-weight: 400;
+    padding: 20px;
+    margin-left: 10px;
+}
+
+section#thirdblock > p {
+    color: rgba(255, 255, 255, 0.788);
+    margin-left: 30px;
+    padding-bottom: 20px;
+    line-height: 24px;
+}
+
+

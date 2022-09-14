@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px){ 
+
+
+    p {
+        font-size: 16px;
+        line-height: 45px;
+        margin-left: 10px;
+    }
+
+    section#firstblock {
+        width: 95.3%;
+    }
+
+    section#secondblock {
+        width: 44%;
+        display: inline-block;
+        margin-top: -50px;
+        border-radius: 0px 0px 0px 10px; 
+    }
+
+    section#secondblock > h2 {
+        margin-left: 30px;
+    }
+    
+    
+    section#secondblock > p#pPrice {
+        margin-left: 30px;
+    }
+    
+    section#secondblock > p#pPrice2 {
+        margin-left: 10px;
+    }
+
+    section#secondblock > p {
+        margin-left: 30px;
+        padding: ;
+    }
+
+    section#thirdblock {
+        width: 50%;
+        display: inline-block;
+        border-radius: 0px 0px 10px 0px;
+        margin-left: -5px;
+    }
+
+    section#thirdblock > h2 {
+        margin-left: 30px;
+    }
+
+    section#thirdblock > p {
+        padding-bottom: 32px;
+        margin-left: 50px;
+    }
+
+}
